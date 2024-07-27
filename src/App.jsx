@@ -15,7 +15,7 @@ const App = () => {
   }
 
   useEffect(() => {
-    document.title = `To-Do App, (${tasksNum})`;
+    document.title = `To-Do App, ${tasksNum}`;
   });
 
   return (
