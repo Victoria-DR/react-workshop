@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk&display=swap');
+
+.app {
+  background-color: #28282B;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20vw;
+}
+
+.title {
+  color: white;
+  font-family: 'Space Grotesk';
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  width: 60vw;
+}
+
+.task-text {
+  color: white;
+  font-family: Inter;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.task-text:hover {
+  cursor: pointer;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
